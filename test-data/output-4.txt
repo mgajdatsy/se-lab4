@@ -1,0 +1,6 @@
+SUCCESS  # <- GT4500
+SUCCESS  # <- TORPEDO (secondary store)
+FAIL  # <- TORPEDO (all)
+SUCCESS  # <- GT4500
+SUCCESS  # <- TORPEDO (primary store)
+FAIL  # <- TORPEDO (all)
