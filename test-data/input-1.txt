@@ -1,0 +1,9 @@
+# Create a ship with empty primary store
+GT4500,0,0,1,0
+TORPEDO,SINGLE  # should have fired from the secondary store
+TORPEDO,SINGLE  # should have fired from the secondary store and failed
+# Create a ship with empty secondary store
+GT4500,2,0,0,0
+TORPEDO,SINGLE  # should have fired from the primary store
+TORPEDO,SINGLE  # should have fired from the primary store again
+TORPEDO,SINGLE  # should have fired from the primary store again and failed
